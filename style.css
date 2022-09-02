@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: 'Lobster', cursive;
+    font-weight: normal;
+}
+
+body, input, textarea {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #8428a3;
+    color: #ecf0f1;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container, 
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container_filmes {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+
+.sinopse_dragon_ball {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.sinopse_dragon_ball img {
+    height: 500px;
+}
+
+.sinopse_dragon_ball p {
+    display: flex;
+    justify-content: space-between;   
+}
+
+.sinopse_dragon_ball a {
+    width: 12px;
+}
+
+#programation {
+    background-color: black
+}
+
+#contact {
+    color: white;
+    background-color: black;
+}
+
+#contact .container h2{
+    color: white;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    background-color: black; 
+    color: white;
+    }
+
+form button {
+    background-color: #8428a3;
+    color: white;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    font-size: 20px;
+}
+
+.botao-compra {
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    background-color: #8428a3;
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+}
+
+form button:hover, .botao-compra:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.endereco-unidades {
+    margin-right: 33%;
+}
+
+footer {
+    padding: 16px 0;
+    background-color: #8428a3;
+    color: #ecf0f1;
+}
+
+header li:hover {
+    text-decoration: underline;
+}
